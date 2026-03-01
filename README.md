@@ -1,40 +1,54 @@
 # Sales End-to-End Machine Learning Project
-
 ## Overview
 
-End-to-end Machine Learning project to predict sales revenue using historical sales data. The project includes data cleaning, exploratory data analysis, feature selection, model comparison, and SQL-based business analysis.
+End-to-end Machine Learning project to predict sales revenue using historical transaction data.
+The project covers data cleaning, exploratory analysis, regression modeling, SQL-based business analysis, and dashboard reporting.
 
 ## Objective
 
-Build a regression model to accurately predict sales revenue and analyze key sales patterns.
+Build a regression model to predict sales revenue and extract meaningful business insights from sales data.
 
-## Workflow
+## Project Workflow
 
-- Data Cleaning  
-- Exploratory Data Analysis  
-- Feature Selection  
-- Model Training & Evaluation  
+- Data Cleaning
+
+- Exploratory Data Analysis (EDA)
+
+- Feature Selection
+
+- Model Training & Evaluation
+
+- SQL Business Analysis
+
+- Power BI Dashboard Creation
 
 ## Models Used
 
-- Linear Regression  
-- Ridge Regression  
-- Decision Tree  
-- ⭐ Random Forest (Best Model)
+- Linear Regression
 
-## Final Result
+- Ridge Regression
 
-Random Forest achieved the best performance with:
+- Decision Tree
 
-- R² Score: 0.88  
-- Lower prediction error compared to other models  
+- ⭐ Random Forest (Best Performing Model)
 
-## Key Insights
+## Final Model Performance
 
-- USA generated highest sales revenue  
-- Classic Cars were top-performing products  
-- Sales peaked during year-end months  
-- Medium deal sizes contributed highest revenue  
+Random Forest achieved the best results:
+
+**R² Score**: 0.88
+
+Lower MAE and RMSE compared to other models
+
+## Key Business Insights
+
+- USA generated the highest total sales revenue
+
+- Classic Cars were the top-performing product line
+
+- Sales peaked during year-end months
+
+- Medium deal sizes contributed the highest revenue share
 
 ## SQL Analysis
 
@@ -47,5 +61,4 @@ Performed structured SQL analysis including:
 - Ranking & percentage contribution using window functions  
 
 ## Tech Stack
-
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SQL
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SQL, Power BI
