@@ -5,7 +5,9 @@ import numpy as np
 st.set_page_config(page_title="Sales Prediction App", layout="wide")
 
 # Load model
-model = joblib.load("sales_model.pkl")
+import os
+model_path = os.path.join(os.path.dirname(__file__), "sales_model.pkl")
+model = joblib.load(model_path)
 
 st.title("Sales Revenue Prediction App")
 st.markdown("Predict sales using trained Random Forest model")
