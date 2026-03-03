@@ -58,7 +58,11 @@ Performed structured SQL analysis including:
 - Country & region analysis  
 - Product contribution analysis  
 - KPI metrics  
-- Ranking & percentage contribution using window functions  
+- Ranking & percentage contribution using window functions
+
+## Live ML App
+Deployed Streamlit Application:
+https://sales-end-to-end-ml-project-6cdepm9hwxjfkryu83y5hu.streamlit.app/
 
 ## Tech Stack
 Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SQL, Power BI
